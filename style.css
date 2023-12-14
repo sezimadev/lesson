@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed&family=Caveat:wght@700&family=Courgette&family=Edu+NSW+ACT+Foundation&family=Fuggles&family=Lilita+One&family=Lobster&family=Manrope:wght@200;400&family=Noto+Sans+Linear+B&family=Noto+Sans+NKo+Unjoined&family=Nova+Mono&family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;800&family=Poppins:wght@500&family=Roboto:wght@100&family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 100px;
+  background-color: rgb(6, 1, 20);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  background-color: #3a68b8;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+
+/* header */
+
+#header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 50px;
+}
+
+.btn-header {
+  width: 112px;
+  height: 47px;
+  padding-top: 5px;
+}
+
+/* section 1 */
+
+#first-section-container {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.description-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.description h1 {
+  font-size: 45px;
+}
+
+.description p {
+  color: grey;
+  font-size: 15px;
+}
+
+.span-text {
+  color: #3a68b8;
+  text-transform: uppercase;
+  margin-bottom: -30px;
+}
+
+.btns-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.get-started {
+  width: 171px;
+  height: 57px;
+}
+
+.watch-video {
+  width: 217px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logoipsum-control {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+/* section 2 */
+
+#second-section-container {
+  margin-top: 100px;
+}
+
+.box-control {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  background-color: rgb(28, 28, 29);
+  width: 400px;
+  height: 450px;
+  border-radius: 5px;
+  padding: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.box h2 {
+  text-align: center;
+}
+
+.box p {
+  text-align: center;
+}
+
+#section-container3{
+    margin-top: 100px; 
+}
+
+
+.description-control2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.description2 h2{
+    color: white;
+    font-size: 45px;
+ 
+
+}
+.description2 p{
+color: gray;
+padding-top: 20px;
+
+}
+
+#footer-container{
+margin-top: 100px;
+}
+
+.footer-control{
+  display: flex;
+  justify-content: space-between
+ 
+}
+
+
+.container1 p{
+    color: white;
+}
+.lorem-text h2{
+    color: rgb(50, 50, 160);
+}
+
+.lorem-text p{
+    color: grey;
+    margin-top: 10px;
+}
+.lorem-text2{
+    padding-top: 20px;
+}
+
+.lorem-text2 img{
+ padding-top: 15px;
+}
+
+.box-container h4{
+  color: white;
+  padding-bottom: 15px;
+}
+.box-container p{
+    color: grey;
+    padding-top: 15px;
+}
+
+.box-container{
+  display: flex;
+  gap: 80px;
+  padding-top: 30px;
+}
+
+.box-container2{
+  padding-top: 30px;
+ padding-left: 40px;
+}
+.box-container2 h4{
+  color: white; 
+  padding-bottom: 25px;
+}
+.box-container2 h5{
+  color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.box-container2 p{
+  color: grey;
+
+}
